@@ -6,7 +6,7 @@
 
 import requests
 
-API_KEY = "AIzaSyCS7wRFqgUAzXgoiU1tB0FfSUGhihGiBzU"
+API_KEY = ""
 PLACE_NAME = "Taj Mahal, India"
 URL = f"https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={PLACE_NAME}&inputtype=textquery&fields=place_id&key={API_KEY}"
 
